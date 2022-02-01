@@ -1,0 +1,13 @@
+"This adult Body Mass Index (BMI) calculator is used for messure a person's leanness based on  
+               their weight and height.The result form calculator categorize person into underweight,  
+               normal weight, overweight and obese groups.This calculator is also tell a health risk which  
+               correlate to person's BMI."
+## Body Mass Index (BMI)
+ -  BMI is a measurement of a person's leanness or corpulence.
+ -  Calculate BMI value  by weight and height . 
+ -  Use the "Metric Units" tab for the International System of Units, kilogram and meter.
+ -  BMI = weight(kg)/height^2(m)
+ -  BMI unit is kg/m^2
+
+Input : 1. weight in kilogram 2. height in meter
+Output : 1.Your BMI value  2.Your BMI catagory 3.Your risk base on your BMI.

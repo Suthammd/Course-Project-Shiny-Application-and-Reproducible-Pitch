@@ -1,0 +1,41 @@
+---
+title: "Adult BMI calculator"
+author: "Jirapanakorn Sutham"
+date: "1/2/2565"
+output: ioslides_presentation
+---
+
+## Body Mass Index (BMI)
+ -  BMI is a measurement of a person's leanness or corpulence.
+ -  Calculate BMI value  by weight and height . 
+ -  Use the "Metric Units" tab for the International System of Units, kilogram and meter.
+ -  BMI = weight(kg)/height^2(m)
+ -  BMI unit is kg/m^2
+ 
+## BMI
+ -  BMI value categorize a person into underweight, normal weight, overweight, or obese  
+    depending on what range the value falls between.
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+BMIrange<-data.frame("Catagory"=c("Underweight","Normal","Overweight",
+                                    "Obese Class1","Obese Class2",
+                                    "Obese Class3"),
+                     "BMI range"=c("< 18.5","18.5-25","25-30",
+                                     "30-35","35-40",">40"))
+BMIrange
+```  
+   
+## Risks associated with being overweight and obese
+ -  High blood pressure
+ -  Stroke
+ -  Coronary heart disease
+ -  High blood lipid level
+ -  Mental illness i.e. depression, anxiety
+ 
+## Risks associated with being underweight
+ -  Malnutrition, vitamin deficiency, anemia
+ -  Osteoporosis
+ -  Immune defect
+ -  Growth restriction
+ 
+## Thank you
+ 
